@@ -1,2 +1,2 @@
-# CodeAlpha Image Gallery
-Responsive image gallery using HTML, CSS and JavaScript.
+# CodeAlpha Portfolio
+Responsive portfolio using HTML, CSS and JavaScript.
