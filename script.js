@@ -1,0 +1,1 @@
+const words=['Frontend Developer','Python Developer','AI Enthusiast'];let i=0,j=0,d=false,e=document.getElementById('typing');(function t(){let w=words[i];if(!d){e.textContent=w.slice(0,++j);if(j==w.length){d=true;return setTimeout(t,1000)}}else{e.textContent=w.slice(0,--j);if(j==0){d=false;i=(i+1)%words.length}}setTimeout(t,d?50:120)})();
